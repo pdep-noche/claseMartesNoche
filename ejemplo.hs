@@ -47,13 +47,11 @@ vertical unaPersona = unaPersona {fuerza = fuerza unaPersona + 10,
                                    energia = energia unaPersona + 5}
 
 cambiarNombre :: Persona -> Persona
-cambiarNombre (Gimnasta nombre fuerza energia) = Gimnasta (nombre ++ " lopez") fuerza energia
+cambiarNombre (Gimnasta nombre fuerza  energia) = Gimnasta (nombre ++ " lopez") fuerza energia
 
 cambiarEnergia :: Persona -> Persona
 cambiarEnergia gimn = Gimnasta (nombre gimn) (fuerza gimn) (energia gimn + 4)
 
---nombre :: String -> String
---nombre nom = nom ++ "algo"  
 
 --data Animal = Perro {nombre :: String}
 
