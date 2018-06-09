@@ -57,7 +57,10 @@ hijo(Persona, Madre):-madre(Madre, Persona).
 hijo(Persona, Padre):-padre(Padre, Persona).
 
 tio(Tio, Sobrino):-hijo(Sobrino, Padre), 
-				   medioHermano(Padre, Tio).
+				   esConsanguineo(Padre, Tio).
+				   
+esConsanguineo(Persona, OtraPersona):- hermano(Persona, OtraPersona).
+esConsanguineo(Persona, OtraPersona):- medioHermano(Persona, OtraPersona). 
 
 
 			
