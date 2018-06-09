@@ -1,4 +1,4 @@
 # claseMartesNoche
-Clase de laboratorio
+Clases de laboratorio
 
-Ejercicios vistos en la clase del laboratorio del curso de paradigmas de programación de los Martes a la noche K2054
+Ejercicios vistos en las clases de laboratorio del curso de paradigmas de programación de los Martes a la noche K2054
